@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    }
+
+
+body{
+    background-color:#5286F3;
+    color:#fff;
+    margin-top: 13%;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    }
+    
+ h6{
+     margin-left: 25px;
+ }
+
+    h2{
+        font-size: 23px;
+        color: rgb(14, 7, 75);
+        
+    }
+
+  .caixaFundo{
+    border: 2px solid rgb(14, 7, 75); 
+    border-radius: 5%;
+    background-color: rgb(37, 109, 172);
+    height: 300px;
+    width: 250px;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+  
+#caixaUsuario{
+    height: 35px;
+    width: 200px;
+    margin-top: 5px; 
+}
+#caixaSenha{
+    height: 35px;
+    width: 200px;
+    margin-top: 5px; 
+}
+
+.botao{
+    height: 35px;
+    width: 200px;    
+    background-color: red; 
+    margin-top: 10px;     
+}
+
+.novaSenha{
+    margin-top: 25px;
+    margin-right: 25px;
+    text-align: center;
+    color: rgb(167, 26, 84);      
+}
+          .esqueceu{
+                color: rgb(14, 7, 75);
+          }
+          .cadastre{
+                color:red;
+                margin-top: 50px;
+            }
+
+                 
+           
+@media (max-width: 1400px) {
+    .caixaUsuario {
+        width: 95%;
+            }
+}
+.botao{
+    width: 90%;
+}
+
+
+@media (max-width: 600px) {
+    .caixaFundo {
+        width: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .caixaFundo {
+        width: 70%;
+    }
+}
